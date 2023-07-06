@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'rest_framework',
+
+    #Local apps
 ]
 
 MIDDLEWARE = [
@@ -76,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'daraja.wsgi.application'
+WSGI_APPLICATION = 'src/daraja.wsgi.application'
 
 
 # Database
