@@ -78,7 +78,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'src/daraja.wsgi.application'
+WSGI_APPLICATION = 'daraja.wsgi.application'
 
 
 # Database
